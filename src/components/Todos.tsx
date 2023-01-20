@@ -9,6 +9,7 @@ const Todos: React.FC = () => {
 
   return (
     <ul className={classes.todos}>
+      <h2>Click on item to remove it.</h2>
       {todosCtx.items.map((item) => (
         <TodoItem
           key={item.id}
